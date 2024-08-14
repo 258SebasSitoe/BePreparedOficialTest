@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Be Prepared",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

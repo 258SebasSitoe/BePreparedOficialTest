@@ -1,0 +1,19 @@
+meta {
+  name: Create subscribers
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3333/subscribers
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "phone": "845044552",
+    "provinceId": "9a6a12fe-ee5d-48d8-87ac-8a9b0f7382cb",
+    "districtId": "02e8701a-7522-4f4a-a6d5-750d6677588b"
+  }
+}
